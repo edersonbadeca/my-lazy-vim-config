@@ -22,6 +22,20 @@ return {
           winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
         },
       },
+      mini = {
+        position = {
+          row = -2, -- Duas linhas acima do rodapé
+          col = "50%", -- Centralizado horizontalmente
+        },
+        size = {
+          width = "auto",
+          height = "auto",
+        },
+        align = "center",
+      },
+    },
+    messages = {
+      view = "mini", -- Garante que as notificações usem o view centralizado
     },
   },
 }
